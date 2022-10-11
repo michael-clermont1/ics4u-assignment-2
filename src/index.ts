@@ -14,7 +14,7 @@ import promptSync from 'prompt-sync'
  * @param {string} userWord  - String variable
  * @returns {number} Return value
  */
-function maxRunCalculator(userWord: string): number {
+function maxRunCalculator (userWord: string): number {
   let maxRun = 1
   let tempValue = 1
   for (let counter = 0; counter < userWord.length; counter++) {
